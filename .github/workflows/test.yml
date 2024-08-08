@@ -12,5 +12,5 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Run parser with input.txt
-      run: ./bin/parser bin/input.txt
+    - name: Run parser with input
+      run: ./bin/parser bin/test.txt
